@@ -1,0 +1,42 @@
+//bg color
+
+.bg-light-gray{
+    background-color: $bg-color;
+}
+.bg-transparent {
+    background-color: transparent;
+}
+
+// color
+
+.primary-color{
+    color: $primary-color;
+}
+
+.heading-color{
+    color: $heading-color;
+}
+
+.body-color{
+    color: $body-color;
+}
+
+
+
+//space
+.space-48{
+    padding: $space-48;
+}
+
+// Font size 
+.font-12 {
+    font-size: $fs-12;
+}
+.font-16 {
+    font-size: $fs-16;
+}
+
+// Border radius 
+.rounded-100 {
+    border-radius: $border-radius-100px;
+}

@@ -1,0 +1,13 @@
+.leftsidebar{
+    background-color: $light-black;
+    padding: $space-16;
+
+    .list-group{
+        .list-group-item{
+            background-color: transparent;
+            img{
+                color: $body-color;
+            }
+        }
+    }
+}

@@ -1,0 +1,67 @@
+.profileintro {
+    background-image: url("../../images/intro_bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: $space-300 0px $space-100 0px;
+
+    .navbar {
+        background-color: rgba(0, 0, 0, 0.7);
+
+        .navbar-brand {
+            width: 200px;
+
+            @media only screen and (max-width: $max-width-991) {
+                width: 120px;
+            }
+
+            .profile-img {
+                width: 200px;
+                height: 200px;
+                border-radius: $border-radius-100px;
+                border: $border-width-6 $border-solid $white;
+                right: 0;
+                bottom: -70px;
+
+                @media only screen and (max-width: $max-width-991) {
+                    width: 120px;
+                    height: 120px;
+                    bottom: -30px;
+                }
+            }
+        }
+
+        .nav-link {
+            color: $white;
+
+            &:hover {
+                color: $primary-color;
+            }
+        }
+    }
+
+    .menu-list {
+
+        @media only screen and (max-width: $max-width-991) {
+            display: block;
+        }
+
+        .nav-menu-custom {
+            @media only screen and (max-width: $max-width-991) {
+                flex-direction: row;
+                overflow-x: auto;
+                width: 100%;
+            }
+    
+            .menu-items {
+                @media only screen and (max-width: $max-width-991) {
+                    margin-right: $space-24;
+
+                    &:last-child {
+                        margin: 0;
+                    }
+                }
+            }
+        }
+    }
+}

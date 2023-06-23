@@ -1,0 +1,27 @@
+.btn{
+    
+    &.btn-primary {
+        background-color: $primary-color;
+
+        &:hover {
+            background-color: darken($primary-color, 10%);
+        }
+    }
+
+    &.btn-fill-black{
+        background-color: $dark-black;
+        color: $white;
+
+        &:hover {
+            background-color: darken($dark-black, 10%);
+        }
+    }
+
+    &.btn-link-purple {
+        color: $light-purple;
+
+        &:hover {
+            color: darken($light-purple, 10%);
+        }
+    }
+}
