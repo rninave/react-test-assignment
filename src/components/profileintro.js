@@ -29,23 +29,23 @@ function Profileintro() {
             <div className="collapse navbar-collapse menu-list" id="collapsible-menu">
               <ul className="navbar-nav nav-menu-custom">
                 <li className="nav-item d-flex align-items-center menu-items">
-                  <a href="#" class="nav-link mx-lg-3">Timeline</a>
+                  <a href="#" className="nav-link mx-lg-3">Timeline</a>
                 </li>
                 <li className="nav-item d-flex align-items-center  menu-items">
-                  <a href="#" class="nav-link mx-lg-3">About</a>
+                  <a href="#" className="nav-link mx-lg-3">About</a>
                 </li>
                 <li className="nav-item d-flex align-items-center  menu-items">
-                  <a href="#" class="nav-link mx-lg-3">Album</a>
+                  <a href="#" className="nav-link mx-lg-3">Album</a>
                 </li>
                 <li className="nav-item d-flex align-items-center  menu-items">
-                  <a href="#" class="nav-link mx-lg-3">Friends</a>
+                  <a href="#" className="nav-link mx-lg-3">Friends</a>
                 </li>
               </ul>
             </div>
 
             <div className="d-sm-flex justify-content-end align-item-cente mt-sm-0 mt-5 mb-sm-0 mb-3">
               <li className="nav-item d-flex align-items-center mb-sm-0 mb-3">
-                <a href="#" class="nav-link me-3 text-white">1299 people following her</a>
+                <a href="#" className="nav-link me-3 text-white">1299 people following her</a>
               </li>
               <button className="btn btn-primary rounded-100" type="submit" onClick={handleClick}>{displayText}</button>
             </div>
